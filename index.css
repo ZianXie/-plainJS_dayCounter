@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    white-space: pre;
+    font-size: 1rem;
+    
+}
+
+body {
+    background-color: rgb(211, 211, 211);
+    /* text-align: center; */
+    min-width: 400px;
+    margin-left: 0%;
+}
+
+#add, #delete {
+    text-align: center;
+}
+
+h1{
+    /* text-align: center; */
+    text-transform: capitalize;
+    margin-left: 1rem;
+}
+
+button {margin-top: 0.5rem;}

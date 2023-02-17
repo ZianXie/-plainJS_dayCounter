@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>the date countdown</title>
+    <!-- a link element for external css -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>my date-tracker</h1>
+    <!-- an ul for the dates -->
+    <ul id="ul-el">
+        <li>list item 1 <span>span</span> </li>
+    </ul>
+    <div id="add">
+        <!-- textbox, day picker, add event button -->
+        <label for="new-label">Event:</label>
+        <input id="new-label" type="text">
+        <input type="date" id="day-picker">
+        <button id="add-btn">Add Event</button>
+    </div>
+    <div id="delete">
+        <!-- <label for="lable-to-del">Event label:</label> -->
+        <!-- <input id="label-to-del" type="number"> -->
+        <select name="del-picker" id="del-picker">
+            <option value="123">123123</option>
+        </select>
+        <button id="del-btn">Delete</button>
+    </div>
+
+    <!-- linking script file -->
+    <script type="module" src="index.js"></script>
+</body>

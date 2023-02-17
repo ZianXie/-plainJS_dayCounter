@@ -1,11 +1,9 @@
 {
     "manifest_version": 3,
     "version": "1.0",
-    "name": "day matters",
+    "name": "a simple day counter",
     "action": {
         "default_popup": "index.html"
     },
-    "permissions": [
-        "tabs"
-    ]
+    "permissions": ["tabs"]
 }

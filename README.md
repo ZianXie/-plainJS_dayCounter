@@ -14,3 +14,5 @@ new objectives Dec 10 22:40
 stop user from inputting an empty label or an empty date
 make the delete button work.
 allow user to export data to a file?
+
+## Used as a chrome extension

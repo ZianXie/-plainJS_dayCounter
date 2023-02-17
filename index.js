@@ -56,7 +56,7 @@ addBtn.addEventListener("click", function () {
 
 //the delete button
 delBtn.addEventListener("dblclick", function () {
-    if (delWhat.selectedIndex) {
+    if (delWhat.selectedIndex !== -1) {
         currentDateArr.splice(delWhat.selectedIndex, 1);
         saveArr(currentDateArr);
         render(currentDateArr);

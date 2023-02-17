@@ -2,11 +2,8 @@
     "manifest_version": 3,
     "version": "1.0",
     "name": "a simple day counter",
-    "homepage": "https://zianxie.github.io/plainJS_dayCounter",
     "action": {
-        "default_popup": "index.html",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "default_popup": "index.html"
     },
     "permissions": ["tabs"]
 }

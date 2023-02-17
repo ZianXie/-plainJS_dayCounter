@@ -1,18 +1,25 @@
 # plainJS_dayCounter
 
-## Plan
+This is a simple chrome extension app developed with JavaScript and HTML, and some basic CSS styling. It's my first attempt to create an webapp.
 
-It should have a list of dates.
-sort the list
-include countdowns from today
-if the dates are in the past, show how many day since
-order the dates from the past to the future
-a button to delete certain dates
-allow periodic dates
+## Usage
 
-new objectives Dec 10 22:40
-stop user from inputting an empty label or an empty date
-make the delete button work.
-allow user to export data to a file?
+Download the codes and put in a folder
 
-## Used as a chrome extension
+👉 Go to Chrome browser
+👉 Extensions on the top right corner
+👉 Manage extensions
+👉 Load unpacked
+👉 Select the folder containing the code
+📌 Play with it
+
+## How it works
+
+📆 Storing and accessing event data in local storage
+💡 Calculate day difference
+🔨 Basic browser DOM, html elements and event listeners.
+
+## Thoughts
+
+After I learned and used React js, I encountered more useful JavaScript modules such as https://momentjs.com/.
+I am pretty sure there are all sorts of utility libraries out there for people to implement instead of re-inventing the wheel.
